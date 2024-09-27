@@ -30,17 +30,6 @@
 grid-template-rows: 1fr 1fr 1fr;
 gap: 20px;
 grid-template-areas: 
-“header header”
-“main sidebar”
-“footer footer”;
-}
-
-.container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-gap: 20px;
-grid-template-areas: 
     'header header'
     'main sidebar'
     'footer footer';
@@ -58,7 +47,4 @@ grid-template-areas:
     .item-4 { 
     grid-area: footer; 
     }
-    
-
-    
 /* exercise 6 (optional) - follow the assigned YT video */
